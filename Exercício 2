@@ -1,0 +1,12 @@
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> (2/2)-3
+-2.0
+>>> 4*(7-4)
+12
+>>> (5-5)*(2+1)/2
+0.0
+>>> 4%2
+0
+>>> 5+(4%2)-1
+4

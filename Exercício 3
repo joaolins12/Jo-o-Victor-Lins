@@ -1,0 +1,13 @@
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> x=3
+>>> y=5
+>>> z=4
+>>> print(y+4)
+9
+>>> print((z+x)-y)
+2
+>>> print((x*y)/y)
+3.0
+>>> print((((x*y)/y)-z)*(z-5))
+1.0

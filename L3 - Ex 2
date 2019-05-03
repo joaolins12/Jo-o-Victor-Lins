@@ -1,0 +1,10 @@
+print("Exercício #1")
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite a sua idade:"))
+qnt = int(input("Quantas vezes você gostaria de imprimir a mensagem?"))
+anoAtual= 2019
+anoNascimento = anoAtual- idade
+calculoIdade = anoNascimento + 100
+while(qnt !=0):
+   print(nome + ", você irá fazer 100 anos em", calculoIdade)
+   qnt = qnt -1

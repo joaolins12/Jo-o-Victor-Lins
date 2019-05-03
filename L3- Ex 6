@@ -1,0 +1,21 @@
+A) lst = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+for i in range(len(lst)) :
+  if (lst[i] <= 5):
+    print(lst[i])
+    
+   
+B)lst = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+novaLst = []
+for item in lst:
+  if item <= 5: 
+    novaLst.append(item)
+print(novaLst)
+
+
+C)n= int(input("Digite um número:"))
+lst = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+novaLst = []
+for item in lst : 
+  if item <= n: 
+    novaLst.append(item)
+print(novaLst)

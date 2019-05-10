@@ -1,0 +1,10 @@
+frase = input("Digite uma frase:")
+dict = {'MAIÚSCULA': 0, 'minúscula':0}  
+for i in range(len(frase)):
+  str = frase [i]
+  if(str.isupper()):
+    dict['MAIÚSCULA'] = dict ['MAIÚSCULA'] + 1
+  elif (str.islower()):
+    dict['minúscula'] = dict['minúsculas'] + 1 
+print("Quantidade de letras MAIÚSCULAS:" , dict[ 'MAIÚSCULA'])
+print("Quantidade de letras minúsculas:", dict['minúscula'])
